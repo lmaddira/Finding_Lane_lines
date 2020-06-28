@@ -17,13 +17,10 @@ The goals / steps of this project are the following:
 
 [image1]: ./test_images_output/gray.jpg "Grayscale"
 [image2]: ./test_images_output/blurr.jpg "blurred grayscale"
-[image3]: ./test_images_output/edges.jpg 
-[//]: # (Image References)
-[image4]: ./test_images_output/masked_img.jpg
-
-[//]: # (Image References)
-[image5]: ./test_images_output/solidWhiteCurve.jpg 
-
+[image3]: ./test_images_output/edges.jpg "Edges"
+[image4]: ./test_images_output/masked_img.jpg "region of interest"
+[image5]: ./test_images_output/solidWhiteCurve.jpg "Final output"
+---
 ### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
@@ -33,12 +30,14 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale.
 Then I blurred the gray scale image.
 ![blurred grayscale][image2]
 Then I used canny() to generate edges.
-![alt text][image3]
+![Edges][image3]
+
 Then I have took out the region of interest. 
-![region of interest][test_images_output/masked_img.jpg]
+![region of interest][./test_images_output/masked_img.jpg]
+
 Using hough transform generated 
 coloured lines from these edges and then interpolated them with the original image. 
-![alt text][image5]
+![Final output][image5]
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by adding thickness.
 
