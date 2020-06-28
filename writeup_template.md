@@ -15,10 +15,14 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./test_images_output/gray.jpg 
-[image2]: ./test_images_output/blurr.jpg 
+[image1]: ./test_images_output/gray.jpg "Grayscale"
+[image2]: ./test_images_output/blurr.jpg "blurred grayscale"
 [image3]: ./test_images_output/edges.jpg 
-[image4]: ./test_images_output/masked_img.jpg 
+---
+[//]: # (Image References)
+[image4]: ./test_images_output/masked_img.jpg
+--- 
+[//]: # (Image References)
 [image5]: ./test_images_output/solidWhiteCurve.jpg 
 
 ---
@@ -28,8 +32,7 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale.
-![Grayscale]
-(/test_images_output/gray.jpg)
+![Grayscale][image1]
 Then I blurred the gray scale image.
 ![blurred grayscale][image2]
 Then I used canny() to generate edges.
