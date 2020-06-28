@@ -18,14 +18,11 @@ The goals / steps of this project are the following:
 [image1]: ./test_images_output/gray.jpg "Grayscale"
 [image2]: ./test_images_output/blurr.jpg "blurred grayscale"
 [image3]: ./test_images_output/edges.jpg 
----
 [//]: # (Image References)
 [image4]: ./test_images_output/masked_img.jpg
---- 
+
 [//]: # (Image References)
 [image5]: ./test_images_output/solidWhiteCurve.jpg 
-
----
 
 ### Reflection
 
@@ -38,7 +35,7 @@ Then I blurred the gray scale image.
 Then I used canny() to generate edges.
 ![alt text][image3]
 Then I have took out the region of interest. 
-![alt text][image4]
+![region of interest][test_images_output/masked_img.jpg]
 Using hough transform generated 
 coloured lines from these edges and then interpolated them with the original image. 
 ![alt text][image5]
