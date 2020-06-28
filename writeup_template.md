@@ -15,10 +15,10 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./test_images_output/gray.jpg "Grayscale"
-[image2]: ./test_images_output/blurr.jpg "blurred grayscale"
-[image3]: ./test_images_output/edges.jpg "Edges"
-[image4]: ./test_images_output/masked_img.jpg "region of interest"
+[image1]: ./test_images_output/gray.png "Grayscale"
+[image2]: ./test_images_output/blurr.png "blurred grayscale"
+[image3]: ./test_images_output/edges.png "Edges"
+[image4]: ./test_images_output/masked_img.png "region of interest"
 [image5]: ./test_images_output/solidWhiteCurve.jpg "Final output"
 ---
 ### Reflection
