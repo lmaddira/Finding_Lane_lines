@@ -28,9 +28,10 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale.
-![alt text][image1]
+![Grayscale]
+(/test_images_output/gray.jpg)
 Then I blurred the gray scale image.
-![alt text][image2]
+![blurred grayscale][image2]
 Then I used canny() to generate edges.
 ![alt text][image3]
 Then I have took out the region of interest. 
