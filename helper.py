@@ -139,7 +139,7 @@ def process_image(filename):
     plt.show()
     print('This line_edges is:', type(line_edges), 'with dimensions:', line_edges.shape)
     return line_edges
-    # mpimg.imsave(os.path.join('test_images_output/', filename),line_edges)
+    mpimg.imsave(os.path.join('test_images_output/', filename),line_edges)
 
 
 def process_image1(image):
